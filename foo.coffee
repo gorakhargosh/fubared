@@ -1,9 +1,7 @@
 
 
 $(() ->
-    class ButtonView extends Backbone.View
-        tagName: 'div'
-        
+    class ButtonView extends Backbone.View        
         id: 'foobar'
         
         events: {

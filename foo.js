@@ -11,7 +11,7 @@
     var ApplicationController, ButtonView;
     ButtonView = (function() {
       __extends(ButtonView, Backbone.View);
-      ButtonView.prototype.tagName = 'div';
+      ButtonView.prototype.tagName = 'a';
       ButtonView.prototype.id = 'foobar';
       ButtonView.prototype.events = {
         'click #whatever': 'onButtonClicked'
